@@ -128,13 +128,16 @@ function Home() {
               </p>
             </div>
 
-            <div className="shrink-0 flex items-center justify-center w-20 h-20 rounded-full bg-signal-yellow text-ink font-mono text-[8px] uppercase tracking-[0.1em] text-center p-2 border border-ink transform rotate-3 shadow-[2px_2px_0_0_var(--color-ink)] hidden sm:flex">
-              <span>
-                Leitura
-                <br />
-                Crítica
-              </span>
-            </div>
+            <a
+              href="https://origemdev.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shrink-0 flex flex-col items-center justify-center w-20 h-20 rounded-full bg-signal-yellow text-ink font-mono text-[8px] uppercase tracking-[0.1em] text-center p-2 border border-ink transform rotate-3 shadow-[2px_2px_0_0_var(--color-ink)] hover:bg-ink hover:text-signal-yellow hover:rotate-0 hover:scale-105 transition-all cursor-pointer hidden sm:flex leading-tight"
+              title="Acessar origemdev.com.br"
+            >
+              <span className="font-bold">ORIGEM DEV</span>
+              <span className="text-[7px] mt-0.5 opacity-80">.com.br ↗</span>
+            </a>
           </div>
         </div>
       </section>
