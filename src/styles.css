@@ -36,7 +36,8 @@
   --font-display: "Instrument Serif", Georgia, serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
-  --font-pixel: "VT323", monospace;
+  --font-pixel: "Pixelify Sans", "VT323", monospace;
+  --font-vt323: "VT323", monospace;
 }
 
 :root {
@@ -87,6 +88,14 @@
 @utility halftone {
   background-image: radial-gradient(var(--ink) 1px, transparent 1.2px);
   background-size: 6px 6px;
+}
+
+@utility dark-grid {
+  background-color: #121212;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 26px 26px;
 }
 
 @layer base {
